@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    text-align: center;
+    margin-top: 20px !important;
+    color: #834d9b ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar,.ui.segment:last-child{
+    margin: 20px 0px !important; 
+    background-color: #834d9b
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.item{
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.header{
+    font-size: 1.8rem;
+    line-height: 1.2em;
+    margin-bottom: 30px !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+    font-size: 1.8rem;
+    padding-left: 20px;
 }
+
+div.ui.right.floated.button{
+    background-color: #834d9b;
+}
+
+a{
+    color: white;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #1fddff;
+}
+
+.ui.form input[type="text"]{
+    font-family: 'Raleway', sans-serif;;
+}
+
