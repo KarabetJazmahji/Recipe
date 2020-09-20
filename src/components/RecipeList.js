@@ -3,7 +3,7 @@ import RecipeItem from './RecipeItem';
 
 const RecipeList = (props) =>{
     
-return <div>{props.recipes.map((recipe)=>{
+return <div style={{maxWidth: '600px', margin: "20px auto"}}>{props.recipes.map((recipe)=>{
     return <RecipeItem recipe={recipe}></RecipeItem>
    })}</div>;
 };

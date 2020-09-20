@@ -12,7 +12,9 @@ h1{
 
 .search-bar,.ui.segment:last-child{
     margin: 20px 0px !important; 
-    background-color: #834d9b
+    background-color: #834d9b;
+    max-width: 600px;
+    margin: 20px auto !important;
 }
 
 
